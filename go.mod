@@ -20,3 +20,7 @@ require (
 
 // personal fork - tracking upstream wavetermdev/waveterm
 // last synced: 2024-06
+// fork owner: personal use / learning the codebase
+// upstream: https://github.com/wavetermdev/waveterm
+// note: golang.org/x/crypto and golang.org/x/sys may need bumping
+//       when syncing upstream; check for security advisories first
