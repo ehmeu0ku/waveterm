@@ -13,7 +13,7 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/shirou/gopsutil/v3 v3.24.4
 	github.com/spf13/cobra v1.8.1
-	golang.org/x/crypto v0.24.0
+	golang.org/x/crypto v0.25.0
 	golang.org/x/sys v0.21.0
 	golang.org/x/term v0.21.0
 )
@@ -22,7 +22,6 @@ require (
 // last synced: 2024-06
 // fork owner: personal use / learning the codebase
 // upstream: https://github.com/wavetermdev/waveterm
-// note: golang.org/x/crypto and golang.org/x/sys may need bumping
-//       when syncing upstream; check for security advisories first
-// TODO: bump golang.org/x/crypto to v0.25.0+ before next upstream sync
-//       (CVE check pending - see https://pkg.go.dev/vuln/)
+// note: golang.org/x/sys may need bumping when syncing upstream
+// bumped golang.org/x/crypto to v0.25.0 (CVE check done, no issues found)
+// TODO: bump golang.org/x/sys to v0.22.0+ before next upstream sync
