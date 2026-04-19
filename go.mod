@@ -17,3 +17,6 @@ require (
 	golang.org/x/sys v0.21.0
 	golang.org/x/term v0.21.0
 )
+
+// personal fork - tracking upstream wavetermdev/waveterm
+// last synced: 2024-06
