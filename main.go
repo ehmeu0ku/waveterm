@@ -15,7 +15,7 @@ var BuildTime = "0"
 
 func main() {
 	if len(os.Args) >= 2 && os.Args[1] == "--version" {
-		fmt.Printf("Wave Terminal %s\n", WaveVersion)
+		fmt.Printf("Wave Terminal %s (build %s)\n", WaveVersion, BuildTime)
 		os.Exit(0)
 	}
 	cmd.Execute()
