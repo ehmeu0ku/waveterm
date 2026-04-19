@@ -15,7 +15,7 @@ require (
 	github.com/spf13/cobra v1.8.1
 	golang.org/x/crypto v0.25.0
 	golang.org/x/sys v0.22.0
-	golang.org/x/term v0.21.0
+	golang.org/x/term v0.22.0
 )
 
 // personal fork - tracking upstream wavetermdev/waveterm
@@ -24,3 +24,4 @@ require (
 // upstream: https://github.com/wavetermdev/waveterm
 // bumped golang.org/x/crypto to v0.25.0 (CVE check done, no issues found)
 // bumped golang.org/x/sys to v0.22.0 (as noted in TODO above)
+// bumped golang.org/x/term to v0.22.0 to match golang.org/x/sys version
