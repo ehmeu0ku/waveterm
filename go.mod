@@ -24,3 +24,5 @@ require (
 // upstream: https://github.com/wavetermdev/waveterm
 // note: golang.org/x/crypto and golang.org/x/sys may need bumping
 //       when syncing upstream; check for security advisories first
+// TODO: bump golang.org/x/crypto to v0.25.0+ before next upstream sync
+//       (CVE check pending - see https://pkg.go.dev/vuln/)
