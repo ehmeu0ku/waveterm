@@ -18,5 +18,10 @@ func main() {
 		fmt.Printf("Wave Terminal %s (build %s)\n", WaveVersion, BuildTime)
 		os.Exit(0)
 	}
+	// Also support -v as a shorthand for --version
+	if len(os.Args) >= 2 && os.Args[1] == "-v" {
+		fmt.Printf("Wave Terminal %s (build %s)\n", WaveVersion, BuildTime)
+		os.Exit(0)
+	}
 	cmd.Execute()
 }
