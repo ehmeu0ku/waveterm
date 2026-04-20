@@ -25,3 +25,7 @@ require (
 // bumped golang.org/x/crypto to v0.25.0 (CVE check done, no issues found)
 // bumped golang.org/x/sys to v0.22.0 (as noted in TODO above)
 // bumped golang.org/x/term to v0.22.0 to match golang.org/x/sys version
+//
+// TODO: look into replacing github.com/mitchellh/mapstructure with
+//       encoding/json or a more actively maintained alternative -
+//       mapstructure hasn't had a release since 2021
